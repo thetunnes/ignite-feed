@@ -5,6 +5,7 @@ import styles from "./App.module.css"
 
 import './global.css'
 import { Sidebar } from './components/Sidebar'
+import { Post } from './components/Post'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
     <div className={styles.wrapper}>
       <Sidebar />
       <main>
-        <p>Posts aqui</p>
+        <Post />
       </main>
     </div>
     </>
